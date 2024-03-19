@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f0f0; /* cor de fundo padrão */
+    color: #333; /* cor do texto padrão */
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+.tema img {
+    cursor: pointer; 
+}
+
+.tema{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    padding-top: 40px;
+    padding-right: 15px;
+}
